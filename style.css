@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #d25454;
+    color: white;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+ 
+}
+nav {
+    background-color: #f8f9fa; /* Optional: Set a background color */
+    padding: 15px; /* Add some padding to the nav */
+    width: 100%; 
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+li {
+    margin: 0 20px; /* Add horizontal spacing between items */
+    
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Set link color */
+    font-weight: bold; /* Optional: Make links bold */
+    font-size: larger;
+}
+
+a:hover {
+    text-decoration: underline; /* Optional: Underline on hover */
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list li {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem 2rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
