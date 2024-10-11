@@ -85,12 +85,12 @@ h1, h2 {
 }
 
 .skills-list li {
-    background-color: #333;
-    color: rgb(247, 41, 26);
-    padding: 2rem 3rem; /* Larger padding for bigger cards */
+    background-color: #433b3b;
+    color: rgb(255, 19, 3);
+    padding:20 px; /* Larger padding for bigger cards */
     margin: 1rem;
     border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for a bigger card */
+    box-shadow: 100 500px 160px rgba(0, 0, 0, 0.2); /* Deeper shadow for a bigger card */
     font-size: 1.5rem; /* Bigger text */
     font-weight: bold;
     width: 300px; /* Set a fixed width for the cards */
@@ -104,6 +104,7 @@ h1, h2 {
 
 .skills-list li:hover {
     transform: translateY(-10px); /* Lift the card on hover */
+    background-color:rgb(247, 218, 183);
     box-shadow: 0 12px 24px rgba(148, 212, 11, 0.3); /* Bigger shadow on hover */
     color: aqua;
 }
@@ -117,7 +118,7 @@ form {
 
 form input, form textarea {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     margin-bottom: 1rem;
     padding: 0.5rem;
     border: 1px solid #ccc;
