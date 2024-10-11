@@ -104,9 +104,9 @@ h1, h2 {
 
 .skills-list li:hover {
     transform: translateY(-10px); /* Lift the card on hover */
-    background-color:rgb(247, 218, 183);
-    box-shadow: 0 12px 24px rgba(148, 212, 11, 0.3); /* Bigger shadow on hover */
-    color: aqua;
+    background-color:rgb(19, 84, 140);
+    box-shadow: 0 12px 24px rgba(170, 236, 27, 0.3); /* Bigger shadow on hover */
+    color: rgb(0, 255, 255);
 }
     
 
