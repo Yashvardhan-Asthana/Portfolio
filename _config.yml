@@ -1,0 +1,30 @@
+# Site settings
+title: "Yashvardhan Asthana Portfolio"  # The title of your site
+description: "A personal portfolio website"  # Short description
+url: "https://yourusername.github.io"  # Your site's URL (update with your actual GitHub Pages URL)
+baseurl: ""  # Leave this blank for root hosting on GitHub Pages
+
+# Build settings
+theme: jekyll-theme-primer  # The theme you're using, you can change if needed
+markdown: kramdown  # The markdown processor
+source: docs  # If your site files are inside a "docs" folder
+
+# Exclude from processing
+exclude:
+  - README.md  # Any files or folders you don't want to be processed
+
+# Plugins
+plugins:
+  - jekyll-seo-tag  # Adds SEO tags to your site
+  - jekyll-paginate  # For pagination if needed
+  - jekyll-sitemap  # Automatically generates a sitemap
+
+# Pagination settings (optional)
+paginate: 5  # If you want to paginate posts
+paginate_path: "/page:num/"  # Pagination path
+
+# Social links (optional)
+social_links:
+  linkedin: "https://www.linkedin.com/in/yashvardhanasthana/"
+  github: "https://github.com/yourusername"
+  email: "mailto:yashmailid01@gmail.com"
